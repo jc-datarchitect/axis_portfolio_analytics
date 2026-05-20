@@ -150,9 +150,3 @@ The initial core data analysis has been developed within a **Jupyter Notebook**,
 ### Phase 2: Power BI Enterprise Modeling
 * **Star Schema Implementation:** Establishing formal `1:*` relationships from dimension tables (`dim_projects`, `dim_clients`, `dim_employees`) to the fact tables.
 * **Interactive Dashboarding:** Transforming Python-discovered insights into a dynamic, executive-ready dashboard for AXIS Studio's stakeholders.
-
----
-
-## Data Privacy & Confidentiality Note
-To comply with non-disclosure agreements (NDA) and protect proprietary business intelligence, all financial figures, client names, employee profiles, and specific project metrics within this repository have been fully anonymized and scaled. The structural workflows and relational schema accurately represent AXIS Studio's operational model, but the raw values do not expose real-world liabilities.
-
