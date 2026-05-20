@@ -20,6 +20,33 @@ Processes operational data via Python into a Power BI Star Schema to analyze KPI
 
 ---
 
+## Project Structure
+
+The repository is organized as follows to ensure reproducibility and clean separation of concerns:
+
+```text
+└── axis_portfolio_analytics/
+    ├── data/
+    │   ├── dim_clients.csv                 # Customer registry and regional metadata
+    │   ├── dim_employees.csv               # HR roster and professional profiles
+    │   ├── dim_projects.csv                # Architectural and structural asset specifications
+    │   ├── fact_project_hours.csv          # Employee labor timesheets and logged effort
+    │   └── fact_project_performance.csv    # Project operational KPIs and financial variances
+    │
+    ├── database/
+    │   └── axis_star_schema.sql            # DDL script for relational Star Schema database deployment
+    │
+    ├── dashboards/
+    │   └── axis_dashboard.pbix             # Power BI production data model and interactive charts
+    │
+    ├── notebooks/
+    │   └── axis_analytics_pipeline.ipynb   # Jupyter Notebook containing Phase 1 EDA and visualizations
+    │
+    └── README.md                           # Project documentation and architecture overview
+```
+
+---
+
 ## Data Architecture (Star Schema)
 
 The project's analytical core is structured under a **Star Schema** data warehouse model, optimized for Business Intelligence (BI) queries and operational analytics. This architectural design decouples quantitative business metrics from descriptive entity attributes, ensuring high query performance and clean relationships.
@@ -149,39 +176,6 @@ The initial core data analysis has been developed within a **Jupyter Notebook**,
 ### Phase 2: Power BI Enterprise Modeling
 * **Star Schema Implementation:** Establishing formal `1:*` relationships from dimension tables (`dim_projects`, `dim_clients`, `dim_employees`) to the fact tables.
 * **Interactive Dashboarding:** Transforming Python-discovered insights into a dynamic, executive-ready dashboard for AXIS Studio's stakeholders.
-
----
-
-## Project Structure
-
-The repository is organized as follows to ensure reproducibility and clean separation of concerns:
-
----
-
-## Project Structure
-
-The repository is organized as follows to ensure reproducibility and clean separation of concerns:
-
-```text
-└── axis_portfolio_analytics/
-    ├── data/
-    │   ├── dim_clients.csv                 # Customer registry and regional metadata
-    │   ├── dim_employees.csv               # HR roster and professional profiles
-    │   ├── dim_projects.csv                # Architectural and structural asset specifications
-    │   ├── fact_project_hours.csv          # Employee labor timesheets and logged effort
-    │   └── fact_project_performance.csv    # Project operational KPIs and financial variances
-    │
-    ├── database/
-    │   └── axis_star_schema.sql            # DDL script for relational Star Schema database deployment
-    │
-    ├── dashboards/
-    │   └── axis_dashboard.pbix             # Power BI production data model and interactive charts
-    │
-    ├── notebooks/
-    │   └── axis_analytics_pipeline.ipynb   # Jupyter Notebook containing Phase 1 EDA and visualizations
-    │
-    └── README.md                           # Project documentation and architecture overview
-```
 
 ---
 
