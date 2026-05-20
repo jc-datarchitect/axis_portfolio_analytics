@@ -152,6 +152,39 @@ The initial core data analysis has been developed within a **Jupyter Notebook**,
 
 ---
 
+## Project Structure
+
+The repository is organized as follows to ensure reproducibility and clean separation of concerns:
+
+---
+
+## Project Structure
+
+The repository is organized as follows to ensure reproducibility and clean separation of concerns:
+
+```text
+└── axis_portfolio_analytics/
+    ├── data/
+    │   ├── dim_clients.csv                 # Customer registry and regional metadata
+    │   ├── dim_employees.csv               # HR roster and professional profiles
+    │   ├── dim_projects.csv                # Architectural and structural asset specifications
+    │   ├── fact_project_hours.csv          # Employee labor timesheets and logged effort
+    │   └── fact_project_performance.csv    # Project operational KPIs and financial variances
+    │
+    ├── database/
+    │   └── axis_star_schema.sql            # DDL script for relational Star Schema database deployment
+    │
+    ├── dashboards/
+    │   └── axis_dashboard.pbix             # Power BI production data model and interactive charts
+    │
+    ├── notebooks/
+    │   └── axis_analytics_pipeline.ipynb   # Jupyter Notebook containing Phase 1 EDA and visualizations
+    │
+    └── README.md                           # Project documentation and architecture overview
+```
+
+---
+
 ## Data Privacy & Anonymization Note
 
 To enforce strict data privacy standards and protect corporate confidentiality, all identifiers, stakeholder identities, and internal metadata within this repository have been fully processed:
