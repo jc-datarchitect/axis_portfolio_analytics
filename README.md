@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/f9791342-e7a5-4058-912c-e2103ade08e2" width="50%" alt="AXIS Studio Banner">
+  <img src="https://github.com/user-attachments/assets/f9791342-e7a5-4058-912c-e2103ade08e2" width="40%" alt="AXIS Studio Banner">
 
   <h1>AXIS Studio: Building Portfolio Operational Analytics</h1>
 
