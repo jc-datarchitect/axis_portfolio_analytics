@@ -112,7 +112,7 @@ Directory of corporate clients, real estate developers, and public entities fund
 
 ## Data Model & Relationships
 
-The tables are interconnected within Power BI using a strict **Star Schema** architectural pattern. The relationships are designed to optimize filter propagation and prevent analytical ambiguity or circular dependencies:
+The tables are interconnected using a strict **Star Schema** architectural pattern. The relationships are designed to optimize filter propagation and prevent analytical ambiguity or circular dependencies:
 
 * **`dim_projects` to `fact_project_performance`**: One-to-Many (`1:*`) relationship via `project_id`. Filters propagate from the project dimensions (typology, materials, GFA) down to performance metrics.
 * **`dim_projects` to `fact_project_hours`**: One-to-Many (`1:*`) relationship via `project_id`. Allows analyzing labor allocation and time distribution by building type.
