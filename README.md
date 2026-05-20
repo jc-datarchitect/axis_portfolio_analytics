@@ -1,3 +1,20 @@
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/f9791342-e7a5-4058-912c-e2103ade08e2" width="100%" alt="AXIS Studio Banner">
+
+  <h1>AXIS Studio: Building Portfolio Operational Analytics</h1>
+
+  <p><i>"Where architectural design meets data-driven performance"</i></p>
+  
+  <br>
+
+  [![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+  [![Power BI](https://img.shields.io/badge/Visualization-Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
+  [![Data Modeling](https://img.shields.io/badge/Schema-Star%20Schema-orange?style=flat)](https://en.wikipedia.org/wiki/Star_schema)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat)](https://opensource.org/licenses/MIT)
+</div>
+
+---
+
 # axis_portfolio_analytics
 End-to-end Business Intelligence solution for **AXIS Studio, an architectural design firm** specializing in building development.  
 Processes operational data via Python into a Power BI Star Schema to analyze KPIs, project delays and financial performance
