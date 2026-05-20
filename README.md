@@ -47,6 +47,21 @@ The repository is organized as follows to ensure reproducibility and clean separ
 
 ---
 
+## Repository Roadmap & Analytics Workflow
+
+The project is structured in a two-phase implementation pipeline, combining Python data science libraries for Initial Exploratory Data Analysis (EDA) and Power BI for enterprise modeling:
+
+### Phase 1: Exploratory Data Analysis
+The initial core data analysis has been developed within a **Jupyter Notebook**, utilizing Python's analytics ecosystem to process the raw datasets. 
+* **Data Auditing:** Ensuring data integrity, handling relational constraints, and validating tracking metrics.
+* **Exploratory Visualizations:** Custom programmatic plots analyzing project delivery timelines, schedule slippage, budget variations, and client satisfaction trends directly from the source tables.
+
+### Phase 2: Power BI Enterprise Modeling
+* **Star Schema Implementation:** Establishing formal `1:*` relationships from dimension tables (`dim_projects`, `dim_clients`, `dim_employees`) to the fact tables.
+* **Interactive Dashboarding:** Transforming Python-discovered insights into a dynamic, executive-ready dashboard for AXIS Studio's stakeholders.
+
+---
+
 ## Data Architecture (Star Schema)
 
 The project's analytical core is structured under a **Star Schema** data warehouse model, optimized for Business Intelligence (BI) queries and operational analytics. This architectural design decouples quantitative business metrics from descriptive entity attributes, ensuring high query performance and clean relationships.
@@ -161,21 +176,6 @@ To evaluate the operational health and financial standing of AXIS Studio's build
 
 ### 3. Customer Success & Quality Delivery
 * **Weighted Satisfaction Index (`sat_overall`):** A composite score measuring client retention and project delivery quality, breaking down performance across communication transparency, timeliness, and structural/finishing quality.
-
----
-
-## Repository Roadmap & Analytics Workflow
-
-The project is structured in a two-phase implementation pipeline, combining Python data science libraries for Initial Exploratory Data Analysis (EDA) and Power BI for enterprise modeling:
-
-### Phase 1: Exploratory Data Analysis
-The initial core data analysis has been developed within a **Jupyter Notebook**, utilizing Python's analytics ecosystem to process the raw datasets. 
-* **Data Auditing:** Ensuring data integrity, handling relational constraints, and validating tracking metrics.
-* **Exploratory Visualizations:** Custom programmatic plots analyzing project delivery timelines, schedule slippage, budget variations, and client satisfaction trends directly from the source tables.
-
-### Phase 2: Power BI Enterprise Modeling
-* **Star Schema Implementation:** Establishing formal `1:*` relationships from dimension tables (`dim_projects`, `dim_clients`, `dim_employees`) to the fact tables.
-* **Interactive Dashboarding:** Transforming Python-discovered insights into a dynamic, executive-ready dashboard for AXIS Studio's stakeholders.
 
 ---
 
