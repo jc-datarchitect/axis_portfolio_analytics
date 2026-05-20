@@ -108,3 +108,46 @@ Directory of corporate clients, real estate developers, and public entities fund
 | `email` | `VARCHAR` | Attribute | Main corporate point of contact email |
 | `phone_number` | `VARCHAR` | Attribute | Primary contact phone number |
 
+---
+
+## Data Model & Relationships
+
+The tables are interconnected within Power BI using a strict **Star Schema** architectural pattern. The relationships are designed to optimize filter propagation and prevent analytical ambiguity or circular dependencies:
+
+* **`dim_projects` to `fact_project_performance`**: One-to-Many (`1:*`) relationship via `project_id`. Filters propagate from the project dimensions (typology, materials, GFA) down to performance metrics.
+* **`dim_projects` to `fact_project_hours`**: One-to-Many (`1:*`) relationship via `project_id`. Allows analyzing labor allocation and time distribution by building type.
+* **`dim_clients` to `fact_project_performance`**: One-to-Many (`1:*`) relationship via `client_id`. Enables client segmentation, risk profiling, and geographical investment analysis.
+* **`dim_employees` to `fact_project_hours`**: One-to-Many (`1:*`) relationship via `employee_id`. Filters tracked hours by staff role, seniority, and regional office location.
+
+---
+
+## Business Logic & KPI Framework
+
+To evaluate the operational health and financial standing of AXIS Studio's building portfolio, the data architecture calculates and monitors the following core business metrics:
+
+### 1. Financial Performance & Variance
+* **Budget Variance ($):** Calculated as `final_cost - planned_cost`. It monitors economic overruns during construction execution phases.
+* **Cost Predictability Index:** Evaluates budgeting accuracy across structural and material typologies (e.g., assessing if post-tensioned concrete designs yield higher variances than structural steel assemblies).
+
+### 2. Operational Efficiency & Schedule Adherence
+* **Schedule Slippage (Days):** Driven by `delay_days`. Quantifies time bottlenecks between contractual handover deadlines (`planned_duration_days`) and actual delivery dates (`actual_duration_days`).
+* **Labor Density Ratio:** cross-references `hours_logged` against `gross_floor_area` (GFA) to evaluate design-hour efficiency per square foot across different building scales (high-rise vs. low-rise).
+
+### 3. Customer Success & Quality Delivery
+* **Weighted Satisfaction Index (`sat_overall`):** A composite score measuring client retention and project delivery quality, breaking down performance across communication transparency, timeliness, and structural/finishing quality.
+
+---
+
+## Repository Roadmap & Analytics Workflow
+
+The project is structured in a two-phase implementation pipeline, combining Python data science libraries for Initial Exploratory Data Analysis (EDA) and Power BI for enterprise modeling:
+
+### Phase 1: Exploratory Data Analysis (Current Stage)
+The initial core data analysis has been developed within a **Jupyter Notebook**, utilizing Python's analytics ecosystem to process the raw datasets. 
+* **Data Auditing:** Ensuring data integrity, handling relational constraints, and validating tracking metrics.
+* **Exploratory Visualizations:** Custom programmatic plots analyzing project delivery timelines, schedule slippage, budget variations, and client satisfaction trends directly from the source tables.
+
+### Phase 2: Power BI Enterprise Modeling (Upcoming)
+* **Star Schema Implementation:** Establishing formal `1:*` relationships from dimension tables (`dim_projects`, `dim_clients`, `dim_employees`) to the fact tables.
+* **Interactive Dashboarding:** Transforming Python-discovered insights into a dynamic, executive-ready dashboard for AXIS Studio's stakeholders.
+
