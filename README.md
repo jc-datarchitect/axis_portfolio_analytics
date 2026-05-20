@@ -40,7 +40,7 @@ The repository is organized as follows to ensure reproducibility and clean separ
     │   └── axis_dashboard.pbix             # Power BI production data model and interactive charts
     │
     ├── notebooks/
-    │   └── axis_analytics_pipeline.ipynb   # Jupyter Notebook containing Phase 1 EDA and visualizations
+    │   └── axis_analytics_pipeline.ipynb   # Jupyter Notebook containing EDA and visualizations
     │
     └── README.md                           # Project documentation and architecture overview
 ```
