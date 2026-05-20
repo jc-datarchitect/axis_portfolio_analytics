@@ -7,7 +7,7 @@
   
   <br>
 
-  [![Real Estate Analytics](https://img.shields.io/badge/Domain-Real%20Estate%20Portfolio%20Analytics-00A8E8?style=flat&logo=amazon-aws&logoColor=white)](https://en.wikipedia.org/wiki/Real_estate_analytics)
+  [![Real Estate Analytics](https://img.shields.io/badge/Real%20Estate%20Portfolio%20Analytics-00A8E8?style=flat&logo=amazon-aws&logoColor=white)](https://en.wikipedia.org/wiki/Real_estate_analytics)
   [![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
   [![Power BI](https://img.shields.io/badge/Visualization-Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
   [![Data Modeling](https://img.shields.io/badge/Schema-Star%20Schema-orange?style=flat)](https://en.wikipedia.org/wiki/Star_schema)
