@@ -1,0 +1,51 @@
+employee_id,employee_name,office_location,job_title,experience_years,age,gender,email
+emp_001,Megan Lopez,Miami,direction,39,59,female,meganlopez@gmail.com
+emp_002,David Gonzalez,Miami,direction,34,62,male,davidgonzalez@gmail.com
+emp_003,Ana Mendez,Miami,direction,39,68,female,anamendez@gmail.com
+emp_004,Isabella Sanchez,Miami,direction,36,64,female,isabellasanchez@gmail.com
+emp_005,Amanda Johnson,Miami,administration,11,40,female,amandajohnson@gmail.com
+emp_006,Paul Gonzalez,Miami,drafter,1,24,male,paulgonzalez@gmail.com
+emp_007,Diego Silva,Miami,site_inspector,13,38,male,diegosilva@gmail.com
+emp_008,Alvaro Ruiz,Miami,architect,2,24,male,alvaroruiz@gmail.com
+emp_009,Paul Johnson,Miami,project_manager,17,40,male,pauljohnson@gmail.com
+emp_010,Luis Sanchez,Miami,drafter,3,23,male,luissanchez@gmail.com
+emp_011,Laura Jimenez,Miami,drafter,8,26,female,laurajimenez@gmail.com
+emp_012,Steven Hernandez,Miami,designer,13,42,male,stevenhernandez@gmail.com
+emp_013,Javier Rios,Miami,designer,13,43,male,javierrios@gmail.com
+emp_014,Camila Rodriguez,Miami,designer,11,38,female,camilarodriguez@gmail.com
+emp_015,Javier Diaz,Miami,designer,7,33,male,javierdiaz@gmail.com
+emp_016,Manuel Gomez,Miami,drafter,4,34,male,manuelgomez@gmail.com
+emp_017,Javier Fernandez,Miami,drafter,11,36,male,javierfernandez@gmail.com
+emp_018,Maria Fernandez,Miami,site_inspector,14,40,female,mariafernandez@gmail.com
+emp_019,Charles Thomas,Miami,project_manager,16,36,male,charlesthomas@gmail.com
+emp_020,Steven Gonzalez,Miami,designer,15,33,male,stevengonzalez@gmail.com
+emp_021,Thomas Wilson,Miami,designer,2,25,male,thomaswilson@gmail.com
+emp_022,Daniel Jones,Miami,architect,3,21,male,danieljones@gmail.com
+emp_023,Javier Cristobal,Costa Rica,project_manager,14,45,male,javiercristobal@gmail.com
+emp_024,Rachel Thomas,Miami,site_inspector,14,34,female,rachelthomas@gmail.com
+emp_025,Pablo Rodriguez,Miami,designer,2,20,male,pablorodriguez@gmail.com
+emp_026,Jose Martinez,Costa Rica,administration,14,34,male,josemartinez@gmail.com
+emp_027,Gabriel Diaz,Costa Rica,project_manager,17,44,male,gabrieldiaz@gmail.com
+emp_028,Sebastian Rios,Costa Rica,project_manager,12,42,male,sebastianrios@gmail.com
+emp_029,Andres Romero,Costa Rica,project_manager,14,33,male,andresromero@gmail.com
+emp_030,Gabriel Martinez,Costa Rica,project_manager,15,43,male,gabrielmartinez@gmail.com
+emp_031,Beatriz Ruiz,Costa Rica,project_manager,15,34,female,beatrizruiz@gmail.com
+emp_032,Sebastian Herrera,Costa Rica,drafter,15,40,male,sebastianherrera@gmail.com
+emp_033,Valeria Gomez,Costa Rica,drafter,1,29,female,valeriagomez@gmail.com
+emp_034,Jose Silva,Costa Rica,drafter,4,33,male,josesilva@gmail.com
+emp_035,Alejandro Diaz,Costa Rica,drafter,7,25,male,alejandrodiaz@gmail.com
+emp_036,Gabriela Rodriguez,Costa Rica,drafter,4,31,female,gabrielarodriguez@gmail.com
+emp_037,Jose Jimenez,Costa Rica,drafter,11,39,male,josejimenez@gmail.com
+emp_038,Diego Fernandez,Costa Rica,drafter,6,25,male,diegofernandez@gmail.com
+emp_039,Valentina Fernandez,Costa Rica,drafter,9,35,female,valentinafernandez@gmail.com
+emp_040,Beatriz Diaz,Costa Rica,drafter,9,35,female,beatrizdiaz@gmail.com
+emp_041,Pablo Perez,Costa Rica,drafter,14,39,male,pabloperez@gmail.com
+emp_042,Adrian Castro,Costa Rica,drafter,7,30,male,adriancastro@gmail.com
+emp_043,Santiago Ruiz,Costa Rica,drafter,1,24,male,santiagoruiz@gmail.com
+emp_044,Andrea Ruiz,Costa Rica,drafter,6,27,female,andrearuiz@gmail.com
+emp_045,Daniela Castro,Costa Rica,drafter,11,30,female,danielacastro@gmail.com
+emp_046,Valentina Silva,Costa Rica,drafter,12,42,female,valentinasilva@gmail.com
+emp_047,Hugo Herrera,Costa Rica,drafter,1,24,male,hugoherrera@gmail.com
+emp_048,Gabriel Lopez,Costa Rica,drafter,14,42,male,gabriellopez@gmail.com
+emp_049,Felipe Sanchez,Costa Rica,drafter,13,41,male,felipesanchez@gmail.com
+emp_050,Andrea Sanchez,Costa Rica,drafter,8,37,non_binary,andreasanchez@gmail.com

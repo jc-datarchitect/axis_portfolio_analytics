@@ -1,0 +1,18 @@
+client_id,client_name,client_type,client_country,client_state,client_city,email,phone_number
+cli_001,Horizon_Development,developer,USA,Florida,Orlando,info@horizondevelopment.com,+1 (555) 730-5930
+cli_002,Genesis_Group,developer,Panama,Panama,Panama City,info@genesisgroup.com,+1 (555) 411-5700
+cli_003,Joshua_Williams,private,Costa Rica,San Jose,San Jose,info@joshuawilliams.com,+1 (555) 721-6279
+cli_004,Summit_Ventures,developer,USA,Florida,Fort Lauderdale,info@summitventures.com,+1 (555) 912-3780
+cli_005,Legacy_Capital,developer,USA,Florida,Jacksonville,info@legacycapital.com,+1 (555) 443-2530
+cli_006,Atlas_Holdings,corporate,Costa Rica,San Jose,San Jose,info@atlasholdings.com,+1 (555) 788-6085
+cli_007,Anthony_Wilson,private,USA,Florida,Orlando,info@anthonywilson.com,+1 (555) 586-2193
+cli_008,Horizon_Estates,developer,Panama,Panama,Panama City,info@horizonestates.com,+1 (555) 689-4185
+cli_009,Legacy_Holdings,developer,USA,Florida,Orlando,info@legacyholdings.com,+1 (555) 771-1090
+cli_010,Pinnacle_Ventures,corporate,Panama,Panama,Panama City,info@pinnacleventures.com,+1 (555) 209-7965
+cli_011,Charles_Moore,private,Costa Rica,San Jose,San Jose,info@charlesmoore.com,+1 (555) 812-9486
+cli_012,Meridian_Real Estate,developer,USA,New York,New York,info@meridianreal estate.com,+1 (555) 567-3184
+cli_013,Matrix_Ventures,corporate,Costa Rica,San Jose,San Jose,info@matrixventures.com,+1 (555) 672-6198
+cli_014,Infinity_Development,corporate,Panama,Panama,Panama City,info@infinitydevelopment.com,+1 (555) 727-9270
+cli_015,Matrix_Estates,developer,Panama,Panama,Panama City,info@matrixestates.com,+1 (555) 556-3607
+cli_016,Equinox_Properties,developer,USA,Florida,Orlando,info@equinoxproperties.com,+1 (555) 960-5543
+cli_017,Zion_Properties,corporate,USA,Florida,Tampa,info@zionproperties.com,+1 (555) 550-2269
