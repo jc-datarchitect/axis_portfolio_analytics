@@ -18,12 +18,12 @@
 
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/57848037-37c0-4a46-b3b5-a1595a6c8175" alt="Dashboard 1" width="400"/></td>
-    <td><img src="https://github.com/user-attachments/assets/4090ecb0-6f95-4b6d-b598-f4a7c392ff47" alt="Dashboard 2" width="400"/></td>
+    <td><img src="https://github.com/user-attachments/assets/57848037-37c0-4a46-b3b5-a1595a6c8175" alt="Dashboard 1" width="500"/></td>
+    <td><img src="https://github.com/user-attachments/assets/4090ecb0-6f95-4b6d-b598-f4a7c392ff47" alt="Dashboard 2" width="500"/></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/0711f422-5b88-4d43-a8bb-9a4c29895487" alt="Dashboard 3" width="400"/></td>
-    <td><img src="https://github.com/user-attachments/assets/f9fffebf-b86b-4ddb-b40a-23204bbf924e" alt="Dashboard 4" width="400"/></td>
+    <td><img src="https://github.com/user-attachments/assets/0711f422-5b88-4d43-a8bb-9a4c29895487" alt="Dashboard 3" width="500"/></td>
+    <td><img src="https://github.com/user-attachments/assets/f9fffebf-b86b-4ddb-b40a-23204bbf924e" alt="Dashboard 4" width="500"/></td>
   </tr>
 </table>
 
