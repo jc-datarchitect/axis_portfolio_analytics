@@ -23,7 +23,7 @@
   </tr>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/0711f422-5b88-4d43-a8bb-9a4c29895487" alt="Dashboard 3" width="500"/></td>
-    <td><img src="https://github.com/user-attachments/assets/f9fffebf-b86b-4ddb-b40a-23204bbf924e" alt="Dashboard 4" width="500"/></td>
+    <td><img src="https://github.com/user-attachments/assets/5e27843c-fb34-42ec-b53c-a21017a6a8d4" alt="Dashboard 4" width="500"/></td>
   </tr>
 </table>
 
