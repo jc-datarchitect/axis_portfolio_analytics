@@ -41,6 +41,7 @@ The repository is organized as follows to ensure reproducibility and clean separ
 
 ```text
 └── axis_portfolio_analytics/
+    ├── LICENSE                             # License information
     ├── data/
     │   ├── dim_clients.csv                 # Customer registry and regional metadata
     │   ├── dim_employees.csv               # HR roster and professional profiles
